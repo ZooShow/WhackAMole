@@ -25,7 +25,7 @@ function startGame() {
     setTimeout(endGame, 30000);
 
 
-    var up = setInterval(burrowUp, 800);
+    var up = setInterval(burrowUp, 400);
 
     let clicks = document.querySelectorAll('.burrow-hole');
     let score = document.querySelector('.score')
@@ -39,7 +39,6 @@ function startGame() {
                 ++i;
                 score.textContent = i;
                 Sound('src/audio/hit.mp3')
-                burrowUp();
             }
         }
     }
