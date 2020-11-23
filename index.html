@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="gameRules">
+        <span>
+            In this game you should tap on this burrows.
+        </span>
+        <br>
+        <input id="play" type="button" value="Play!">
+    </div>
+
+    <div class="endGame none">
+        <span>
+            Time up, Your score: <span class = "endScore">0</span>
+        </span>
+        <br>
+        <input id="retry" type="button" value="Retry">
+    </div>
+
+    <div class="gameBackground">
+        <span>Your score:<span class="score">0</span></span> <br>
+        <span>Time left: 0:<span class="time">30</span></span>
+        <div class="gameField">
+            <div class="burrow-hole burrowUp g1"></div>
+            <div class="burrow-hole g2"></div>
+            <div class="burrow-hole g3"></div>
+            <div class="burrow-hole g4"></div>
+            <div class="burrow-hole g5"></div>
+            <div class="burrow-hole g6"></div>
+            <div class="burrow-hole g7"></div>
+            <div class="burrow-hole g8"></div>
+            <div class="burrow-hole g9"></div>
+        </div>
+    </div>
+    <script src="src/scrypt.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nerko One', cursive;
+    color: black;
+    font-size: 4vw;
+}
+
+.gameRules,
+.endGame {
+    position: absolute;
+    z-index: 2;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.gameRules span {
+    color: white;
+}
+
+.endGame span {
+    color: white;
+}
+
+input {
+    width: 20vw;
+    height: 10vw;
+    color: black;
+    font-size: 4vw;
+    border-radius: 4vw;
+    border: none;
+}
+
+.gameBackground {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(img/baclground.jpg);
+    text-align: center;
+    vertical-align: middle;
+    background-size: 100vw 100vh;
+}
+
+.gameField {
+    padding-top: 2vw;
+    padding-left: 35vw;
+    width: 40vw;
+    height: 40vh;
+    display: grid;
+    grid-template: repeat(3, 10vw) / repeat(3, 10vw);
+}
+
+.score,
+.endScore {
+    color: black;
+}
+
+.burrow-hole {
+    background-image: url(img/burrow.png);
+    background-size: 10vw 10vw;
+}
+
+.burrowUp {
+    background-image: url(img/burrowUp.png);
+    background-size: 10vw 10vw;
+}
+
+.none {
+    display: none;
+}
